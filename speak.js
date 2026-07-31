@@ -101,6 +101,9 @@ async function speakWordSequence() {
 
   // 9. [예문 읽기] 예문 2회 출력
   if (currentWord.example) {
+    if (typeof revealExamplePinyin === "function") revealExamplePinyin();
+    if (typeof revealExample === "function") revealExample();
+    
     await speakPromise(currentWord.example, "zh-CN", 0.8, true);
     await new Promise((r) => setTimeout(r, 1000));
 
