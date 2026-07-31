@@ -16,8 +16,11 @@ function speakPromise(text, lang = "zh-CN", rate = 0.85, withProgressBar = false
       return;
     }
 
-    // 이전 소리 완전 정지
-    window.speechSynthesis.cancel();
+   const synth = window.speechSynthesis;
+
+    // ★ 1. 브라우저 음성 엔진이 멈춰있는 경우 일시정지 해제 및 완전 초기화
+    if (synth.paused) synth.resume();
+    synth.cancel();
 
     const utter = new SpeechSynthesisUtterance(text);
     utter.lang = lang;
@@ -36,7 +39,7 @@ function speakPromise(text, lang = "zh-CN", rate = 0.85, withProgressBar = false
     };
 
     // 문장 길이에 따라 대기 시간 여유 있게 조정
-    const safetyTimer = setTimeout(safeResolve, Math.max(text.length * 800, 3500));
+    const safetyTimer = setTimeout(safeResolve, Math.max(text.length * 800, 4000));
 
     utter.onstart = () => {
       if (withProgressBar && typeof startProgressBar === "function") {
@@ -59,7 +62,7 @@ function speakPromise(text, lang = "zh-CN", rate = 0.85, withProgressBar = false
     // ★ 핵심 2: cancel 후 아주 미세한 딜레이(50ms)를 주고 speak 호출
     setTimeout(() => {
       window.speechSynthesis.speak(utter);
-    }, 100);
+    }, 350);
   });
 }
 
@@ -94,12 +97,12 @@ async function speakWordSequence() {
 
   // 8. [카드 뒤집기] 뒷면(뜻/예문)으로 이동
   if (typeof flipCard === "function") flipCard(true);
-  await new Promise((r) => setTimeout(r, 800));
+  await new Promise((r) => setTimeout(r, 1000));
 
   // 9. [예문 읽기] 예문 2회 출력
   if (currentWord.example) {
     await speakPromise(currentWord.example, "zh-CN", 0.8, true);
-    await new Promise((r) => setTimeout(r, 500));
+    await new Promise((r) => setTimeout(r, 800));
 
     await speakPromise(currentWord.example, "zh-CN", 0.8, true);
     await new Promise((r) => setTimeout(r, 300));
