@@ -1,0 +1,21 @@
+[
+  { "word": "范围", "pinyin": "fànwéi", "meaning": "범위", "example": "考试范围很大" },
+  { "word": "安排", "pinyin": "ānpái", "meaning": "일정을 잡다", "example": "今天怎么安排" },
+  { "word": "适合", "pinyin": "shìhé", "meaning": "적합하다/어울리다", "example": "这件衣服适合你" },
+  { "word": "坚持", "pinyin": "jiānchí", "meaning": "꾸준히 하다", "example": "坚持学习汉语" },
+  { "word": "交流", "pinyin": "jiāoliú", "meaning": "소통하다", "example": "互相交流" },
+  { "word": "详细", "pinyin": "xiángxì", "meaning": "자세하다", "example": "解释得很详细" },
+  { "word": "提高", "pinyin": "tígāo", "meaning": "향상시키다", "example": "提高汉语水平" },
+  { "word": "复杂", "pinyin": "fùzá", "meaning": "복잡하다", "example": "这个问题很复杂" },
+  { "word": "印象", "pinyin": "yìnxiàng", "meaning": "인상", "example": "印象很深刻" },
+  { "word": "克服", "pinyin": "kèfú", "meaning": "극복하다", "example": "克服困难" },
+  { "word": "经验", "pinyin": "jīngyàn", "meaning": "경험", "example": "积累经验" },
+  { "word": "保证", "pinyin": "bǎozhèng", "meaning": "보장/약속하다", "example": "我保证" },
+  { "word": "顺利", "pinyin": "shùnlì", "meaning": "순조롭다", "example": "祝你一切顺利" },
+  { "word": "提醒", "pinyin": "tíxǐng", "meaning": "일깨워주다", "example": "谢谢你提醒我" },
+  { "word": "影响", "pinyin": "yǐngxiǎng", "meaning": "영향", "example": "产生影响" },
+  { "word": "熟悉", "pinyin": "shúxī", "meaning": "익숙하다", "example": "熟悉环境" },
+  { "word": "准备", "pinyin": "zhǔnbèi", "meaning": "준비하다", "example": "准备好了吗" },
+  { "word": "清楚", "pinyin": "qīngchu", "meaning": "분명하다/잘 알다", "example": "听清楚了" },
+  { "word": "表达", "pinyin": "biǎodá", "meaning": "표현하다", "example": "表达想法" }
+]
