@@ -16,8 +16,8 @@ function speakPromise(text, lang = "zh-CN", rate = 0.85, withProgressBar = false
       return;
     }
 
-    // 이전 재생 중단
-    stopSpeaking();
+    // 이전 소리 완전 정지
+    window.speechSynthesis.cancel();
 
     const utter = new SpeechSynthesisUtterance(text);
     utter.lang = lang;
@@ -36,11 +36,11 @@ function speakPromise(text, lang = "zh-CN", rate = 0.85, withProgressBar = false
     };
 
     // 문장 길이에 따라 대기 시간 여유 있게 조정
-    const safetyTimer = setTimeout(safeResolve, Math.max(text.length * 600, 3500));
+    const safetyTimer = setTimeout(safeResolve, Math.max(text.length * 800, 3500));
 
     utter.onstart = () => {
       if (withProgressBar && typeof startProgressBar === "function") {
-        const estimatedDuration = Math.max(text.length * 400, 2000);
+        const estimatedDuration = Math.max(text.length * 500, 2500);
         startProgressBar(estimatedDuration);
       }
     };
@@ -59,7 +59,7 @@ function speakPromise(text, lang = "zh-CN", rate = 0.85, withProgressBar = false
     // ★ 핵심 2: cancel 후 아주 미세한 딜레이(50ms)를 주고 speak 호출
     setTimeout(() => {
       window.speechSynthesis.speak(utter);
-    }, 50);
+    }, 100);
   });
 }
 
