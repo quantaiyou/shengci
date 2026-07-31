@@ -8,7 +8,7 @@ async function loadDictionary() {
     if (isDictLoaded) return true;
 
     try {
-        const res = await fetch("data/data.json");
+        const res = await fetch("words.json");
         const data = await res.json();
 
         // 데이터가 배열로 들어올 경우를 대비한 자동 변환 안전장치
