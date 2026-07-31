@@ -1,7 +1,7 @@
 // js/speak.js
 
 let currentSpeech = null;
-
+window.currentUtterance = null;
 function stopSpeaking() {
   if (window.speechSynthesis) {
     window.speechSynthesis.cancel();
@@ -16,25 +16,31 @@ function speakPromise(text, lang = "zh-CN", rate = 0.85, withProgressBar = false
       return;
     }
 
+    // 이전 재생 중단
     stopSpeaking();
 
     const utter = new SpeechSynthesisUtterance(text);
     utter.lang = lang;
     utter.rate = rate;
 
+    // ★ 핵심 1: 전역 변수에 참조를 유지하여 브라우저가 음성 객체를 중간에 삭제하지 못하게 방지
+    window.currentUtterance = utter;
+
     let isResolved = false;
     const safeResolve = () => {
       if (!isResolved) {
         isResolved = true;
+        window.currentUtterance = null; // 재생 완료 후 해제
         resolve();
       }
     };
 
-    const safetyTimer = setTimeout(safeResolve, Math.max(text.length * 400, 2500));
+    // 문장 길이에 따라 대기 시간 여유 있게 조정
+    const safetyTimer = setTimeout(safeResolve, Math.max(text.length * 600, 3500));
 
     utter.onstart = () => {
       if (withProgressBar && typeof startProgressBar === "function") {
-        const estimatedDuration = Math.max(text.length * 300, 1500);
+        const estimatedDuration = Math.max(text.length * 400, 2000);
         startProgressBar(estimatedDuration);
       }
     };
@@ -44,12 +50,16 @@ function speakPromise(text, lang = "zh-CN", rate = 0.85, withProgressBar = false
       safeResolve();
     };
 
-    utter.onerror = () => {
+    utter.onerror = (e) => {
+      console.warn("TTS Error:", e);
       clearTimeout(safetyTimer);
       safeResolve();
     };
 
-    window.speechSynthesis.speak(utter);
+    // ★ 핵심 2: cancel 후 아주 미세한 딜레이(50ms)를 주고 speak 호출
+    setTimeout(() => {
+      window.speechSynthesis.speak(utter);
+    }, 50);
   });
 }
 
