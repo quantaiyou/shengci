@@ -70,7 +70,7 @@ async function speakWordSequence() {
   const currentWord = words[index];
 
   // 1. [백지 카드] 0.2초 짧은 대기
-  await new Promise((r) => setTimeout(r, 200));
+  await new Promise((r) => setTimeout(r, 500));
 
   // 2. [첫번째 음성] 백지 상태에서 먼저 발음
   await speakPromise(currentWord.word, "zh-CN", 0.85);
@@ -94,14 +94,14 @@ async function speakWordSequence() {
 
   // 8. [카드 뒤집기] 뒷면(뜻/예문)으로 이동
   if (typeof flipCard === "function") flipCard(true);
-  await new Promise((r) => setTimeout(r, 500));
+  await new Promise((r) => setTimeout(r, 800));
 
   // 9. [예문 읽기] 예문 2회 출력
   if (currentWord.example) {
     await speakPromise(currentWord.example, "zh-CN", 0.8, true);
-    await new Promise((r) => setTimeout(r, 300));
+    await new Promise((r) => setTimeout(r, 500));
 
     await speakPromise(currentWord.example, "zh-CN", 0.8, true);
-    await new Promise((r) => setTimeout(r, 200));
+    await new Promise((r) => setTimeout(r, 300));
   }
 }
