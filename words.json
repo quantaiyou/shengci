@@ -1,359 +1,228 @@
-[
-  {
-    "word": "站",
-    "pinyin": "zhàn",
-    "meaning": "서다, 정류장/역",
-    "example": "我在公交站等车。",
-    "example_pinyin": "Wǒ zài gōngjiāozhàn děng chē."
-  },
-  {
-    "word": "正",
-    "pinyin": "zhèng",
-    "meaning": "마침 ~하는 중이다,마침.바로(딱 들어맞음)",
-    "example": "他正在看书。",
-    "example_pinyin": "Tā zhèngzài kàn shū."
-  },
-  {
-    "word": "挤",
-    "pinyin": "jǐ",
-    "meaning": "붐비다, 밀치다",
-    "example": "车里太挤了，几乎没有地方站。",
-    "example_pinyin": "Chē lǐ tài jǐ le, jīhū méiyǒu dìfang zhàn."
-  },
-  {
-    "word": "终于",
-    "pinyin": "zhōngyú",
-    "meaning": "마침내, 결국",
-    "example": "我终于完成了这件工作。",
-    "example_pinyin": "Wǒ zhōngyú wánchéng le zhè jiàn gōngzuò."
-  },
-  {
-    "word": "抢",
-    "pinyin": "qiǎng",
-    "meaning": "빼앗다, 다투어 ~하다",
-    "example": "大家都在抢购打折商品。",
-    "example_pinyin": "Dàjiā dōu zài qiǎnggòu dǎzhé shāngpǐn."
-  },
-  {
-    "word": "吵",
-    "pinyin": "chǎo",
-    "meaning": "시끄럽다, 다투다",
-    "example": "请安静一点，不要吵。",
-    "example_pinyin": "Qǐng ānjìng yìdiǎn, bú yào chǎo."
-  },
-  {
-    "word": "摘",
-    "pinyin": "zhāi",
-    "meaning": "뜯다, 벗다, 따다",
-    "example": "上课时请摘下帽子。",
-    "example_pinyin": "Shàngkè shí qǐng zhāixià màozi."
-  },
-  {
-    "word": "摘帽子",
-    "pinyin": "zhāi mào zi",
-    "meaning": "모자를 벗다, (비유) 누명/오명을 벗다",
-    "example": "终于给他摘掉了坏人的帽子。",
-    "example_pinyin": "Zhōngyú gěi tā zhāidiào le huàirén de màozi."
-  },
-  {
-    "word": "摘桃子",
-    "pinyin": "zhāi táo zi",
-    "meaning": "복숭아를 따다, (비유) 남의 공로/결실을 훔치다",
-    "example": "他在别人完成工作后才出现摘桃子。",
-    "example_pinyin": "Tā zài biérén wánchéng gōngzuò hòu cái chūxiàn zhāi táozi."
-  },
-  {
-    "word": "摘眼镜",
-    "pinyin": "zhāi yǎn jìng",
-    "meaning": "안경을 벗다",
-    "example": "请摘下眼镜做眼保健操。",
-    "example_pinyin": "Qǐng zhāixià yǎnjìng zuò yǎn bǎojiàncāo."
-  },
-  {
-    "word": "消息",
-    "pinyin": "xiāoxi",
-    "meaning": "소식, 뉴스",
-    "example": "我听到了一个好消息。",
-    "example_pinyin": "Wǒ tīngdào le yí gè hǎo xiāoxi."
-  },
-  {
-    "word": "眼泪",
-    "pinyin": "yǎnlèi",
-    "meaning": "눈물",
-    "example": "听到这个悲伤的故事，她流下了眼泪。",
-    "example_pinyin": "Tīngdào zhè gè bēishāng de gùshi, tā liúxià le yǎnlèi."
-  },
-  {
-    "word": "吓",
-    "pinyin": "xià",
-    "meaning": "놀라게 하다, 놀라다",
-    "example": "刚才的响声吓了我一跳。",
-    "example_pinyin": "Gāngcái de xiǎngshēng xià le wǒ yí tiào."
-  },
-  {
-    "word": "大娘",
-    "pinyin": "dàniáng",
-    "meaning": "아주머니, 할머니",
-    "example": "那位大娘非常热心。",
-    "example_pinyin": "Nà wèi dàniáng fēicháng rèxīn."
-  },
-  {
-    "word": "让座",
-    "pinyin": "ràng zuò",
-    "meaning": "자리를 양보하다",
-    "example": "在公交车上应该给老人让座。",
-    "example_pinyin": "Zài gōngjiāochē shàng yīnggāi gěi lǎorén ràng zuò."
-  },
-  {
-    "word": "沉",
-    "pinyin": "chén",
-    "meaning": "가라앉다, 무겁다",
-    "example": "这个箱子非常沉。",
-    "example_pinyin": "Zhè gè xiāngzi fēicháng chén."
-  },
-  {
-    "word": "礼貌",
-    "pinyin": "lǐmào",
-    "meaning": "예의, 예의 바르다",
-    "example": "他是一个很有礼貌的孩子。",
-    "example_pinyin": "Tā shì yí gè hěn yǒu lǐmào de háizi."
-  },
-  {
-    "word": "迷路",
-    "pinyin": "mí lù",
-    "meaning": "길을 잃다",
-    "example": "我在陌生的地方迷路了。",
-    "example_pinyin": "Wǒ zài mòshēng de dìfang mí lù le."
-  },
-  {
-    "word": "追尾",
-    "pinyin": "zhuī wěi",
-    "meaning": "추돌하다",
-    "example": "路上发生了一起两车追尾事故。",
-    "example_pinyin": "Lùshang fāshēng le yì qǐ liǎng chē zhuī wěi shìgù."
-  },
-  {
-    "word": "安全带",
-    "pinyin": "ānquándài",
-    "meaning": "안전벨트",
-    "example": "上车后请系好安全带。",
-    "example_pinyin": "Shàng chē hòu qǐng jì hǎo ānquándài."
-  },
-  {
-    "word": "闯",
-    "pinyin": "chuǎng",
-    "meaning": "돌진하다, 어기다",
-    "example": "开车时绝对不能闯红灯。",
-    "example_pinyin": "Kāichē shí juéduì bù néng chuǎng hóngdēng."
-  },
-  {
-    "word": "横穿马路",
-    "pinyin": "héngchuān mǎlù",
-    "meaning": "무단횡단하다",
-    "example": "横穿马路非常危险。",
-    "example_pinyin": "Héngchuān mǎlù fēicháng wēixiǎn."
-  },
-  {
-    "word": "超速",
-    "pinyin": "chāosù",
-    "meaning": "과속하다",
-    "example": "超速行驶容易引发交通事故。",
-    "example_pinyin": "Chāosù xíngshǐ róngyì yǐnfā jiāotōng shìgù."
-  },
-  {
-    "word": "千万",
-    "pinyin": "qiānwàn",
-    "meaning": "부디, 절대로",
-    "example": "过马路时千万要注意安全。",
-    "example_pinyin": "Guò mǎlù shí qiānwàn yào zhùyì ānquán."
-  },
-  {
-    "word": "酒驾",
-    "pinyin": "jiǔjià",
-    "meaning": "음주 운전(하다)",
-    "example": "酒驾是非常危险的违法行为。",
-    "example_pinyin": "Jiǔjià shì fēicháng wēixiǎn de wéifǎ xíngwéi."
-  },
-  {
-    "word": "驾驶",
-    "pinyin": "jiàshǐ",
-    "meaning": "운전하다, 조종하다",
-    "example": "驾驶车辆时必须集中注意力。",
-    "example_pinyin": "Jiàshǐ chēliàng shí bìxū jízhōng zhùyìlì."
-  },
-  {
-    "word": "安全鞋",
-    "pinyin": "ānquánxié",
-    "meaning": "안전화",
-    "example": "进入施工现场必须穿安全鞋。",
-    "example_pinyin": "Jìnrù shīgōng xiànchǎng bìxū chuān ānquánxié."
-  },
-  {
-    "word": "劳保鞋",
-    "pinyin": "láobǎoxié",
-    "meaning": "작업화, 안전화(노동보호화)",
-    "example": "工厂每周都会检查员工的劳保鞋。",
-    "example_pinyin": "Gōngchǎng měi zhōu dōu huì jiǎnchá yuángōng de láobǎoxié."
-  },
-  {
-    "word": "安全化",
-    "pinyin": "ānquánhuà",
-    "meaning": "안전화(안전하게 함, 안전성 확보)",
-    "example": "工厂正在推进生产设备的安全化改造。",
-    "example_pinyin": "Gōngchǎng zhèngzài tuījìn shēngchǎn shèbèi de ānquánhuà gǎizào."
-  },
-  {
-    "word": "找代驾",
-    "pinyin": "zhǎo dàijià",
-    "meaning": "대리운전 기사를 부르다",
-    "example": "喝酒后一定要找代驾，千万不能酒驾。",
-    "example_pinyin": "Hējiǔ hòu yídìng yào zhǎo dàijià, qiānwàn bù néng jiǔjià."
-  },
-  {
-    "word": "疲劳",
-    "pinyin": "píláo",
-    "meaning": "피로하다, 피로",
-    "example": "千万不要疲劳驾驶，非常危险。",
-    "example_pinyin": "Qiānwàn bù yào píláo jiàshǐ, fēicháng wēixiǎn."
-  },
-  {
-    "word": "疲劳驾驶",
-    "pinyin": "píláo jiàshǐ",
-    "meaning": "졸음운전, 피로 운전",
-    "example": "疲劳驾驶非常危险，容易引发重大交通事故。",
-    "example_pinyin": "Píláo jiàshǐ fēicháng wēixiǎn, róngyì yǐnfā zhòngdà jiāotōng shìgù."
-  },
-  {
-    "word": "范围",
-    "pinyin": "fànwéi",
-    "meaning": "범위",
-    "example": "考试范围很大",
-    "example_pinyin": "Kǎoshì fànwéi hěn dà"
-  },
-  {
-    "word": "安排",
-    "pinyin": "ānpái",
-    "meaning": "일정을 잡다",
-    "example": "今天怎么安排",
-    "example_pinyin": "Jīntiān zěnme ānpái"
-  },
-  {
-    "word": "适合",
-    "pinyin": "shìhé",
-    "meaning": "적합하다/어울리다",
-    "example": "这件衣服适合你",
-    "example_pinyin": "Zhè jiàn yīfu shìhé nǐ"
-  },
-  {
-    "word": "坚持",
-    "pinyin": "jiānchí",
-    "meaning": "꾸준히 하다",
-    "example": "坚持学习汉语",
-    "example_pinyin": "Jiānchí xuéxí Hànyǔ"
-  },
-  {
-    "word": "交流",
-    "pinyin": "jiāoliú",
-    "meaning": "소통하다",
-    "example": "互相交流",
-    "example_pinyin": "Hùxiāng jiāoliú"
-  },
-  {
-    "word": "详细",
-    "pinyin": "xiángxì",
-    "meaning": "자세하다",
-    "example": "解释得很详细",
-    "example_pinyin": "Jiěshì de hěn xiángxì"
-  },
-  {
-    "word": "提高",
-    "pígāo",
-    "meaning": "향상시키다",
-    "example": "提高汉语水平",
-    "example_pinyin": "Tígāo Hànyǔ shuǐpíng"
-  },
-  {
-    "word": "复杂",
-    "pinyin": "fùzá",
-    "meaning": "복잡하다",
-    "example": "这个问题很复杂",
-    "example_pinyin": "Zhè gè wèntí hěn fùzá"
-  },
-  {
-    "word": "印象",
-    "pinyin": "yìnxiàng",
-    "meaning": "인상",
-    "example": "印象很深刻",
-    "example_pinyin": "Yìnxiàng hěn shēnke"
-  },
-  {
-    "word": "克服",
-    "pinyin": "kèfú",
-    "meaning": "극복하다",
-    "example": "克服困难",
-    "example_pinyin": "Kèfú kùnnan"
-  },
-  {
-    "word": "经验",
-    "pinyin": "jīngyàn",
-    "meaning": "경험",
-    "example": "积累经验",
-    "example_pinyin": "Jīlěi jīngyàn"
-  },
-  {
-    "word": "保证",
-    "pinyin": "bǎozhèng",
-    "meaning": "보장/약속하다",
-    "example": "我保证",
-    "example_pinyin": "Wǒ bǎozhèng"
-  },
-  {
-    "word": "顺利",
-    "pinyin": "shùnlì",
-    "meaning": "순조롭다",
-    "example": "祝你一切顺利",
-    "example_pinyin": "Zhù nǐ yíqiè shùnlì"
-  },
-  {
-    "word": "提醒",
-    "pinyin": "tíxǐng",
-    "meaning": "일깨워주다",
-    "example": "谢谢你提醒我",
-    "example_pinyin": "Xièxie nǐ tíxǐng wǒ"
-  },
-  {
-    "word": "影响",
-    "pinyin": "yǐngxiǎng",
-    "meaning": "영향",
-    "example": "产生影响",
-    "example_pinyin": "Chǎnshēng yǐngxiǎng"
-  },
-  {
-    "word": "熟悉",
-    "pinyin": "shúxī",
-    "meaning": "익숙하다",
-    "example": "熟悉环境",
-    "example_pinyin": "Shúxī huánjìng"
-  },
-  {
-    "word": "准备",
-    "pinyin": "zhǔnbèi",
-    "meaning": "준비하다",
-    "example": "准备好了吗",
-    "example_pinyin": "Zhǔnbèi hǎo le ma"
-  },
-  {
-    "word": "清楚",
-    "pinyin": "qīngchu",
-    "meaning": "분명하다/잘 알다",
-    "example": "听清楚了",
-    "example_pinyin": "Tīng qīngchu le"
-  },
-  {
-    "word": "表达",
-    "pinyin": "biǎodá",
-    "meaning": "표현하다",
-    "example": "表达想法",
-    "example_pinyin": "Biǎodá xiǎngfǎ"
-  }
-]
+{
+  "shengci": [
+    {
+      "word": "站",
+      "pinyin": "zhàn",
+      "meaning": "서다, 정류장/역",
+      "example": "我在公交站等车。",
+      "example_pinyin": "Wǒ zài gōngjiāozhàn děng chē."
+    },
+    {
+      "word": "正",
+      "pinyin": "zhèng",
+      "meaning": "마침 ~하는 중이다,마침.바로(딱 들어맞음)",
+      "example": "他正在看书。",
+      "example_pinyin": "Tā zhèngzài kàn shū."
+    },
+    {
+      "word": "挤",
+      "pinyin": "jǐ",
+      "meaning": "붐비다, 밀치다",
+      "example": "车里太挤了，几乎没有地方站。",
+      "example_pinyin": "Chē lǐ tài jǐ le, jīhū méiyǒu dìfang zhàn."
+    },
+    {
+      "word": "终于",
+      "pinyin": "zhōngyú",
+      "meaning": "마침내, 결국",
+      "example": "我终于完成了这件工作。",
+      "example_pinyin": "Wǒ zhōngyú wánchéng le zhè jiàn gōngzuò."
+    },
+    {
+      "word": "抢",
+      "pinyin": "qiǎng",
+      "meaning": "빼앗다, 다투어 ~하다",
+      "example": "大家都在抢购打折商品。",
+      "example_pinyin": "Dàjiā dōu zài qiǎnggòu dǎzhé shāngpǐn."
+    },
+    {
+      "word": "吵",
+      "pinyin": "chǎo",
+      "meaning": "시끄럽다, 다투다",
+      "example": "请安静一点，不要吵。",
+      "example_pinyin": "Qǐng ānjìng yìdiǎn, bú yào chǎo."
+    },
+    {
+      "word": "摘",
+      "pinyin": "zhāi",
+      "meaning": "뜯다, 벗다, 따다",
+      "example": "上课时请摘下帽子。",
+      "example_pinyin": "Shàngkè shí qǐng zhāixià màozi."
+    },
+    {
+      "word": "摘帽子",
+      "pinyin": "zhāi mào zi",
+      "meaning": "모자를 벗다, (비유) 누명/오명을 벗다",
+      "example": "终于给他摘掉了坏人的帽子。",
+      "example_pinyin": "Zhōngyú gěi tā zhāidiào le huàirén de màozi."
+    },
+    {
+      "word": "摘桃子",
+      "pinyin": "zhāi táo zi",
+      "meaning": "복숭아를 따다, (비유) 남의 공로/결실을 훔치다",
+      "example": "他在别人完成工作后才出现摘桃子。",
+      "example_pinyin": "Tā zài biérén wánchéng gōngzuò hòu cái chūxiàn zhāi táozi."
+    },
+    {
+      "word": "摘眼镜",
+      "pinyin": "zhāi yǎn jìng",
+      "meaning": "안경을 벗다",
+      "example": "请摘下眼镜做眼保健操。",
+      "example_pinyin": "Qǐng zhāixià yǎnjìng zuò yǎn bǎojiàncāo."
+    },
+    {
+      "word": "消息",
+      "pinyin": "xiāoxi",
+      "meaning": "소식, 뉴스",
+      "example": "我听到了一个好消息。",
+      "example_pinyin": "Wǒ tīngdào le yí gè hǎo xiāoxi."
+    },
+    {
+      "word": "眼泪",
+      "pinyin": "yǎnlèi",
+      "meaning": "눈물",
+      "example": "听到这个悲伤的故事，她流下了眼泪。",
+      "example_pinyin": "Tīngdào zhè gè bēishāng de gùshi, tā liúxià le yǎnlèi."
+    },
+    {
+      "word": "吓",
+      "pinyin": "xià",
+      "meaning": "놀라게 하다, 놀라다",
+      "example": "刚才的响声吓了我一跳。",
+      "example_pinyin": "Gāngcái de xiǎngshēng xià le wǒ yí tiào."
+    },
+    {
+      "word": "大娘",
+      "pinyin": "dàniáng",
+      "meaning": "아주머니, 할머니",
+      "example": "那位大娘非常热心。",
+      "example_pinyin": "Nà wèi dàniáng fēicháng rèxīn."
+    },
+    {
+      "word": "让座",
+      "pinyin": "ràng zuò",
+      "meaning": "자리를 양보하다",
+      "example": "在公交车上应该给老人让座。",
+      "example_pinyin": "Zài gōngjiāochē shàng yīnggāi gěi lǎorén ràng zuò."
+    },
+    {
+      "word": "沉",
+      "pinyin": "chén",
+      "meaning": "가라앉다, 무겁다",
+      "example": "这个箱子非常沉。",
+      "example_pinyin": "Zhè gè xiāngzi fēicháng chén."
+    },
+    {
+      "word": "礼貌",
+      "pinyin": "lǐmào",
+      "meaning": "예의, 예의 바르다",
+      "example": "他是一个很有礼貌的孩子。",
+      "example_pinyin": "Tā shì yí gè hěn yǒu lǐmào de háizi."
+    },
+    {
+      "word": "迷路",
+      "pinyin": "mí lù",
+      "meaning": "길을 잃다",
+      "example": "我在陌生的地方迷路了。",
+      "example_pinyin": "Wǒ zài mòshēng de dìfang mí lù le."
+    },
+    {
+      "word": "追尾",
+      "pinyin": "zhuī wěi",
+      "meaning": "추돌하다",
+      "example": "路上发生了一起两车追尾事故。",
+      "example_pinyin": "Lùshang fāshēng le yì qǐ liǎng chē zhuī wěi shìgù."
+    },
+    {
+      "word": "安全带",
+      "pinyin": "ānquándài",
+      "meaning": "안전벨트",
+      "example": "上车后请系好安全带。",
+      "example_pinyin": "Shàng chē hòu qǐng jì hǎo ānquándài."
+    },
+    {
+      "word": "闯",
+      "pinyin": "chuǎng",
+      "meaning": "돌진하다, 어기다",
+      "example": "开车时绝对不能闯红灯。",
+      "example_pinyin": "Kāichē shí juéduì bù néng chuǎng hóngdēng."
+    },
+    {
+      "word": "横穿马路",
+      "pinyin": "héngchuān mǎlù",
+      "meaning": "무단횡단하다",
+      "example": "横穿马路非常危险。",
+      "example_pinyin": "Héngchuān mǎlù fēicháng wēixiǎn."
+    },
+    {
+      "word": "超速",
+      "pinyin": "chāosù",
+      "meaning": "과속하다",
+      "example": "超速行驶容易引发交通事故。",
+      "example_pinyin": "Chāosù xíngshǐ róngyì yǐnfā jiāotōng shìgù."
+    },
+    {
+      "word": "千万",
+      "pinyin": "qiānwàn",
+      "meaning": "부디, 절대로",
+      "example": "过马路时千万要注意安全。",
+      "example_pinyin": "Guò mǎlù shí qiānwàn yào zhùyì ānquán."
+    },
+    {
+      "word": "酒驾",
+      "pinyin": "jiǔjià",
+      "meaning": "음주 운전(하다)",
+      "example": "酒驾是非常危险的违法行为。",
+      "example_pinyin": "Jiǔjià shì fēicháng wēixiǎn de wéifǎ xíngwéi."
+    },
+    {
+      "word": "驾驶",
+      "pinyin": "jiàshǐ",
+      "meaning": "운전하다, 조종하다",
+      "example": "驾驶车辆时必须集中注意力。",
+      "example_pinyin": "Jiàshǐ chēliàng shí bìxū jízhōng zhùyìlì."
+    },
+    {
+      "word": "安全鞋",
+      "pinyin": "ānquánxié",
+      "meaning": "안전화",
+      "example": "进入施工现场必须穿安全鞋。",
+      "example_pinyin": "Jìnrù shīgōng xiànchǎng bìxū chuān ānquánxié."
+    },
+    {
+      "word": "劳保鞋",
+      "pinyin": "láobǎoxié",
+      "meaning": "작업화, 안전화(노동보호화)",
+      "example": "工厂每周都会检查员工的劳保鞋。",
+      "example_pinyin": "Gōngchǎng měi zhōu dōu huì jiǎnchá yuángōng de láobǎoxié."
+    },
+    {
+      "word": "安全化",
+      "pinyin": "ānquánhuà",
+      "meaning": "안전화(안전하게 함, 안전성 확보)",
+      "example": "工厂正在推进生产设备的安全化改造。",
+      "example_pinyin": "Gōngchǎng zhèngzài tuījìn shēngchǎn shèbèi de ānquánhuà gǎizào."
+    },
+    {
+      "word": "找代驾",
+      "pinyin": "zhǎo dàijià",
+      "meaning": "대리운전 기사를 부르다",
+      "example": "喝酒后一定要找代驾，千万不能酒驾。",
+      "example_pinyin": "Hējiǔ hòu yídìng yào zhǎo dàijià, qiānwàn bù néng jiǔjià."
+    },
+    {
+      "word": "疲劳",
+      "pinyin": "píláo",
+      "meaning": "피로하다, 피로",
+      "example": "千万不要疲劳驾驶，非常危险。",
+      "example_pinyin": "Qiānwàn bù yào píláo jiàshǐ, fēicháng wēixiǎn."
+    },
+    {
+      "word": "疲劳驾驶",
+      "pinyin": "píláo jiàshǐ",
+      "meaning": "졸음운전, 피로 운전",
+      "example": "疲劳驾驶非常危险，容易引发重大交通事故。",
+      "example_pinyin": "Píláo jiàshǐ fēicháng wēixiǎn, róngyì yǐnfā zhòngdà jiāotōng shìgù."
+    }
+  ]
+}
